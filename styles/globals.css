@@ -5,20 +5,44 @@
 @layer base {
   @font-face {
     font-family: "Cotford";
-    font-weight: 800;
     src: url("../public/fonts/cotford-800.woff2") format("woff2"),
       url("../public/fonts/cotford-800.woff") format("woff");
   }
 
   @font-face {
-    font-family: "Eloquia-Extrabld";
+    font-family: "Eloquia-Bold";
     src: url("../public/fonts/eloquia-800.woff2") format("woff2"),
       url("../public/fonts/eloquia-800.woff") format("woff");
   }
 
   @font-face {
-    font-family: "Eloquia-Extralght";
+    font-family: "Eloquia-Light";
     src: url("../public/fonts/eloquia-300.woff2") format("woff2"),
       url("../public/fonts/eloquia-300.woff") format("woff");
   }
+
+  @font-face {
+    font-family: "HelveticaNow-Medium";
+    src: url("../public/fonts/helveticanow-medium.woff2") format("woff2");
+  }
+
+  @font-face {
+    font-family: "HelveticaNow-Bold";
+    src: url("../public/fonts/helveticanow-bold.woff2") format("woff2");
+  }
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
 }
