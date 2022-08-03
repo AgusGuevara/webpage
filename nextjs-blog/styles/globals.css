@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Cotford";
+    font-weight: 800;
+    src: url("../public/fonts/cotford-800.woff2") format("woff2"),
+      url("../public/fonts/cotford-800.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Eloquia-Extrabld";
+    src: url("../public/fonts/eloquia-800.woff2") format("woff2"),
+      url("../public/fonts/eloquia-800.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Eloquia-Extralght";
+    src: url("../public/fonts/eloquia-300.woff2") format("woff2"),
+      url("../public/fonts/eloquia-300.woff") format("woff");
+  }
+}
